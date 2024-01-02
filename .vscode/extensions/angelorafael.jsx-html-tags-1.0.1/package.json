@@ -1,0 +1,48 @@
+{
+	"name": "jsx-html-tags",
+	"publisher": "angelorafael",
+	"author": {
+		"name": "Angelo Rafael"
+	},
+	"displayName": "JSX HTML <tags/>",
+	"description": "Use HTML Tags into JSX",
+	"version": "1.0.1",
+	"engines": {
+		"vscode": "^1.40.0"
+	},
+	"icon": "img/logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/angelorpt/vscode-jsx-html-tags.git"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "14457308-03f6-4d10-9420-d137453b173f",
+		"publisherId": "0ca124e7-ec16-4d8a-b304-3a59800ddcf8",
+		"publisherDisplayName": "Angelo Rafael",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1703109792644,
+		"pinned": false,
+		"preRelease": false
+	}
+}

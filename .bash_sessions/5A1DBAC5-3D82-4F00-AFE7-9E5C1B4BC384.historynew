@@ -1,0 +1,22 @@
+curl -version
+curl --help
+sudo apt install curl
+sudo apt install curl
+curl -version
+curl -o-
+curl -version
+sudo apt install curl
+sudo apt install curl
+curl -version
+curl --help
+curl -V
+nvm list-remote
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+curl -o- https://raw.githubuserconten.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+sudo apt install curl
+curl -version
+curl --help
+curl -V
+nvm list-remote
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+curl -o- https://raw.githubuserconten.com/nvm-sh/nvm/v0.38.0/install.sh | bash

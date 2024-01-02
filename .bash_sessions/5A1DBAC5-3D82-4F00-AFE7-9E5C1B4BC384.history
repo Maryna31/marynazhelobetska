@@ -1,0 +1,16 @@
+brew install git
+sudo port install git
+gitb--version
+git --version
+git --version
+git config --global core.editor kate
+git config core.autocrlf input
+git config --global user.name "Maryna Zhelobetska"
+git config --global user.email marynazhelobetska@gmail.com
+git config --list
+git config --global core.autocrlf input
+git config --list
+git --help
+ git status
+git init
+git push origin main

@@ -1,0 +1,221 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.2.3
+2 info using node@v20.10.0
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:/Users/marynazhelobetska/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/usr/local/etc/npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:setEnvs Completed in 0ms
+15 timing config:load Completed in 8ms
+16 timing npm:load:configload Completed in 8ms
+17 timing config:load:flatten Completed in 3ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install cowsay
+21 verbose argv "install" "--global" "cowsay"
+22 timing npm:load:setTitle Completed in 18ms
+23 timing npm:load:display Completed in 1ms
+24 verbose logfile logs-max:10 dir:/Users/marynazhelobetska/.npm/_logs/2023-12-21T14_42_32_227Z-
+25 verbose logfile /Users/marynazhelobetska/.npm/_logs/2023-12-21T14_42_32_227Z-debug-0.log
+26 timing npm:load:logFile Completed in 9ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 58ms
+30 timing config:load:flatten Completed in 0ms
+31 timing arborist:ctor Completed in 0ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 5ms
+34 timing idealTree:userRequests Completed in 3ms
+35 silly idealTree buildDeps
+36 silly fetch manifest cowsay@*
+37 http fetch GET 200 https://registry.npmjs.org/cowsay 517ms (cache miss)
+38 silly placeDep ROOT cowsay@1.5.0 OK for:  want: *
+39 silly fetch manifest get-stdin@8.0.0
+40 silly fetch manifest string-width@~2.1.1
+41 silly fetch manifest strip-final-newline@2.0.0
+42 silly fetch manifest yargs@15.4.1
+43 http fetch GET 200 https://registry.npmjs.org/get-stdin 59ms (cache miss)
+44 http fetch GET 200 https://registry.npmjs.org/strip-final-newline 114ms (cache revalidated)
+45 http fetch GET 200 https://registry.npmjs.org/string-width 115ms (cache revalidated)
+46 http fetch GET 200 https://registry.npmjs.org/yargs 117ms (cache revalidated)
+47 timing idealTree:#root Completed in 646ms
+48 silly placeDep node_modules/cowsay get-stdin@8.0.0 OK for: cowsay@1.5.0 want: 8.0.0
+49 silly placeDep node_modules/cowsay string-width@2.1.1 OK for: cowsay@1.5.0 want: ~2.1.1
+50 silly fetch manifest is-fullwidth-code-point@^2.0.0
+51 silly fetch manifest strip-ansi@^4.0.0
+52 silly placeDep node_modules/cowsay strip-final-newline@2.0.0 OK for: cowsay@1.5.0 want: 2.0.0
+53 silly placeDep node_modules/cowsay yargs@15.4.1 OK for: cowsay@1.5.0 want: 15.4.1
+54 silly fetch manifest cliui@^6.0.0
+55 silly fetch manifest decamelize@^1.2.0
+56 silly fetch manifest find-up@^4.1.0
+57 silly fetch manifest get-caller-file@^2.0.1
+58 silly fetch manifest require-directory@^2.1.1
+59 silly fetch manifest require-main-filename@^2.0.0
+60 silly fetch manifest set-blocking@^2.0.0
+61 silly fetch manifest string-width@^4.2.0
+62 silly fetch manifest which-module@^2.0.0
+63 silly fetch manifest y18n@^4.0.0
+64 silly fetch manifest yargs-parser@^18.1.2
+65 http fetch GET 200 https://registry.npmjs.org/decamelize 69ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/set-blocking 68ms (cache miss)
+67 http fetch GET 200 https://registry.npmjs.org/which-module 68ms (cache miss)
+68 http fetch GET 200 https://registry.npmjs.org/require-main-filename 69ms (cache miss)
+69 http fetch GET 200 https://registry.npmjs.org/strip-ansi 131ms (cache revalidated)
+70 http fetch GET 200 https://registry.npmjs.org/cliui 139ms (cache revalidated)
+71 http fetch GET 200 https://registry.npmjs.org/get-caller-file 141ms (cache revalidated)
+72 http fetch GET 200 https://registry.npmjs.org/y18n 139ms (cache revalidated)
+73 http fetch GET 200 https://registry.npmjs.org/require-directory 143ms (cache revalidated)
+74 http fetch GET 200 https://registry.npmjs.org/yargs-parser 141ms (cache revalidated)
+75 http fetch GET 200 https://registry.npmjs.org/find-up 146ms (cache revalidated)
+76 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 161ms (cache revalidated)
+77 timing idealTree:node_modules/cowsay Completed in 166ms
+78 timing idealTree:node_modules/cowsay/node_modules/get-stdin Completed in 0ms
+79 silly placeDep node_modules/cowsay is-fullwidth-code-point@2.0.0 OK for: string-width@2.1.1 want: ^2.0.0
+80 silly placeDep node_modules/cowsay strip-ansi@4.0.0 OK for: string-width@2.1.1 want: ^4.0.0
+81 silly fetch manifest ansi-regex@^3.0.0
+82 http fetch GET 200 https://registry.npmjs.org/ansi-regex 45ms (cache revalidated)
+83 timing idealTree:node_modules/cowsay/node_modules/string-width Completed in 50ms
+84 timing idealTree:node_modules/cowsay/node_modules/is-fullwidth-code-point Completed in 0ms
+85 silly placeDep node_modules/cowsay ansi-regex@3.0.1 OK for: strip-ansi@4.0.0 want: ^3.0.0
+86 timing idealTree:node_modules/cowsay/node_modules/strip-ansi Completed in 2ms
+87 timing idealTree:node_modules/cowsay/node_modules/ansi-regex Completed in 0ms
+88 timing idealTree:node_modules/cowsay/node_modules/strip-final-newline Completed in 0ms
+89 silly placeDep node_modules/cowsay cliui@6.0.0 OK for: yargs@15.4.1 want: ^6.0.0
+90 silly fetch manifest strip-ansi@^6.0.0
+91 silly fetch manifest wrap-ansi@^6.2.0
+92 silly placeDep node_modules/cowsay decamelize@1.2.0 OK for: yargs@15.4.1 want: ^1.2.0
+93 silly placeDep node_modules/cowsay find-up@4.1.0 OK for: yargs@15.4.1 want: ^4.1.0
+94 silly fetch manifest locate-path@^5.0.0
+95 silly fetch manifest path-exists@^4.0.0
+96 silly placeDep node_modules/cowsay get-caller-file@2.0.5 OK for: yargs@15.4.1 want: ^2.0.1
+97 silly placeDep node_modules/cowsay require-directory@2.1.1 OK for: yargs@15.4.1 want: ^2.1.1
+98 silly placeDep node_modules/cowsay require-main-filename@2.0.0 OK for: yargs@15.4.1 want: ^2.0.0
+99 silly placeDep node_modules/cowsay set-blocking@2.0.0 OK for: yargs@15.4.1 want: ^2.0.0
+100 silly placeDep node_modules/cowsay/node_modules/yargs string-width@4.2.3 OK for: yargs@15.4.1 want: ^4.2.0
+101 silly fetch manifest emoji-regex@^8.0.0
+102 silly fetch manifest is-fullwidth-code-point@^3.0.0
+103 silly fetch manifest strip-ansi@^6.0.1
+104 silly placeDep node_modules/cowsay which-module@2.0.1 OK for: yargs@15.4.1 want: ^2.0.0
+105 silly placeDep node_modules/cowsay y18n@4.0.3 OK for: yargs@15.4.1 want: ^4.0.0
+106 silly placeDep node_modules/cowsay yargs-parser@18.1.3 OK for: yargs@15.4.1 want: ^18.1.2
+107 silly fetch manifest camelcase@^5.0.0
+108 http fetch GET 200 https://registry.npmjs.org/wrap-ansi 52ms (cache revalidated)
+109 http fetch GET 200 https://registry.npmjs.org/emoji-regex 50ms (cache revalidated)
+110 http fetch GET 200 https://registry.npmjs.org/camelcase 51ms (cache revalidated)
+111 http fetch GET 200 https://registry.npmjs.org/path-exists 64ms (cache revalidated)
+112 http fetch GET 200 https://registry.npmjs.org/locate-path 66ms (cache revalidated)
+113 timing idealTree:node_modules/cowsay/node_modules/yargs Completed in 76ms
+114 silly placeDep node_modules/cowsay/node_modules/cliui string-width@4.2.3 OK for: cliui@6.0.0 want: ^4.2.0
+115 silly placeDep node_modules/cowsay/node_modules/cliui strip-ansi@6.0.1 OK for: cliui@6.0.0 want: ^6.0.0
+116 silly fetch manifest ansi-regex@^5.0.1
+117 silly placeDep node_modules/cowsay wrap-ansi@6.2.0 OK for: cliui@6.0.0 want: ^6.2.0
+118 silly fetch manifest ansi-styles@^4.0.0
+119 silly fetch manifest string-width@^4.1.0
+120 http fetch GET 200 https://registry.npmjs.org/ansi-styles 45ms (cache revalidated)
+121 timing idealTree:node_modules/cowsay/node_modules/cliui Completed in 53ms
+122 timing idealTree:node_modules/cowsay/node_modules/decamelize Completed in 0ms
+123 silly placeDep node_modules/cowsay locate-path@5.0.0 OK for: find-up@4.1.0 want: ^5.0.0
+124 silly fetch manifest p-locate@^4.1.0
+125 silly placeDep node_modules/cowsay path-exists@4.0.0 OK for: find-up@4.1.0 want: ^4.0.0
+126 http fetch GET 200 https://registry.npmjs.org/p-locate 120ms (cache revalidated)
+127 timing idealTree:node_modules/cowsay/node_modules/find-up Completed in 124ms
+128 timing idealTree:node_modules/cowsay/node_modules/get-caller-file Completed in 0ms
+129 silly placeDep node_modules/cowsay p-locate@4.1.0 OK for: locate-path@5.0.0 want: ^4.1.0
+130 silly fetch manifest p-limit@^2.2.0
+131 http fetch GET 200 https://registry.npmjs.org/p-limit 41ms (cache revalidated)
+132 timing idealTree:node_modules/cowsay/node_modules/locate-path Completed in 45ms
+133 silly placeDep node_modules/cowsay p-limit@2.3.0 OK for: p-locate@4.1.0 want: ^2.2.0
+134 silly fetch manifest p-try@^2.0.0
+135 http fetch GET 200 https://registry.npmjs.org/p-try 47ms (cache revalidated)
+136 timing idealTree:node_modules/cowsay/node_modules/p-locate Completed in 51ms
+137 silly placeDep node_modules/cowsay p-try@2.2.0 OK for: p-limit@2.3.0 want: ^2.0.0
+138 timing idealTree:node_modules/cowsay/node_modules/p-limit Completed in 2ms
+139 timing idealTree:node_modules/cowsay/node_modules/p-try Completed in 0ms
+140 timing idealTree:node_modules/cowsay/node_modules/path-exists Completed in 0ms
+141 timing idealTree:node_modules/cowsay/node_modules/require-directory Completed in 0ms
+142 timing idealTree:node_modules/cowsay/node_modules/require-main-filename Completed in 0ms
+143 timing idealTree:node_modules/cowsay/node_modules/set-blocking Completed in 0ms
+144 timing idealTree:node_modules/cowsay/node_modules/which-module Completed in 0ms
+145 silly placeDep node_modules/cowsay ansi-styles@4.3.0 OK for: wrap-ansi@6.2.0 want: ^4.0.0
+146 silly fetch manifest color-convert@^2.0.1
+147 silly placeDep node_modules/cowsay/node_modules/wrap-ansi string-width@4.2.3 OK for: wrap-ansi@6.2.0 want: ^4.1.0
+148 silly placeDep node_modules/cowsay/node_modules/wrap-ansi strip-ansi@6.0.1 OK for: wrap-ansi@6.2.0 want: ^6.0.0
+149 http fetch GET 200 https://registry.npmjs.org/color-convert 783ms (cache revalidated)
+150 timing idealTree:node_modules/cowsay/node_modules/wrap-ansi Completed in 787ms
+151 silly placeDep node_modules/cowsay color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+152 silly fetch manifest color-name@~1.1.4
+153 http fetch GET 200 https://registry.npmjs.org/color-name 44ms (cache revalidated)
+154 timing idealTree:node_modules/cowsay/node_modules/ansi-styles Completed in 47ms
+155 silly placeDep node_modules/cowsay color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+156 timing idealTree:node_modules/cowsay/node_modules/color-convert Completed in 2ms
+157 timing idealTree:node_modules/cowsay/node_modules/color-name Completed in 0ms
+158 timing idealTree:node_modules/cowsay/node_modules/y18n Completed in 0ms
+159 silly placeDep node_modules/cowsay camelcase@5.3.1 OK for: yargs-parser@18.1.3 want: ^5.0.0
+160 timing idealTree:node_modules/cowsay/node_modules/yargs-parser Completed in 1ms
+161 timing idealTree:node_modules/cowsay/node_modules/camelcase Completed in 0ms
+162 silly placeDep node_modules/cowsay emoji-regex@8.0.0 OK for: string-width@4.2.3 want: ^8.0.0
+163 silly placeDep node_modules/cowsay/node_modules/cliui is-fullwidth-code-point@3.0.0 OK for: string-width@4.2.3 want: ^3.0.0
+164 timing idealTree:node_modules/cowsay/node_modules/cliui/node_modules/string-width Completed in 4ms
+165 timing idealTree:node_modules/cowsay/node_modules/emoji-regex Completed in 0ms
+166 timing idealTree:node_modules/cowsay/node_modules/cliui/node_modules/is-fullwidth-code-point Completed in 0ms
+167 silly placeDep node_modules/cowsay/node_modules/cliui ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+168 timing idealTree:node_modules/cowsay/node_modules/cliui/node_modules/strip-ansi Completed in 1ms
+169 timing idealTree:node_modules/cowsay/node_modules/cliui/node_modules/ansi-regex Completed in 0ms
+170 silly placeDep node_modules/cowsay/node_modules/wrap-ansi is-fullwidth-code-point@3.0.0 OK for: string-width@4.2.3 want: ^3.0.0
+171 timing idealTree:node_modules/cowsay/node_modules/wrap-ansi/node_modules/string-width Completed in 1ms
+172 timing idealTree:node_modules/cowsay/node_modules/wrap-ansi/node_modules/is-fullwidth-code-point Completed in 0ms
+173 silly placeDep node_modules/cowsay/node_modules/wrap-ansi ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+174 timing idealTree:node_modules/cowsay/node_modules/wrap-ansi/node_modules/strip-ansi Completed in 1ms
+175 timing idealTree:node_modules/cowsay/node_modules/wrap-ansi/node_modules/ansi-regex Completed in 0ms
+176 silly placeDep node_modules/cowsay/node_modules/yargs is-fullwidth-code-point@3.0.0 OK for: string-width@4.2.3 want: ^3.0.0
+177 silly placeDep node_modules/cowsay/node_modules/yargs strip-ansi@6.0.1 OK for: string-width@4.2.3 want: ^6.0.1
+178 timing idealTree:node_modules/cowsay/node_modules/yargs/node_modules/string-width Completed in 3ms
+179 timing idealTree:node_modules/cowsay/node_modules/yargs/node_modules/is-fullwidth-code-point Completed in 0ms
+180 silly placeDep node_modules/cowsay/node_modules/yargs ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+181 timing idealTree:node_modules/cowsay/node_modules/yargs/node_modules/strip-ansi Completed in 2ms
+182 timing idealTree:node_modules/cowsay/node_modules/yargs/node_modules/ansi-regex Completed in 0ms
+183 timing idealTree:buildDeps Completed in 2069ms
+184 timing idealTree:fixDepFlags Completed in 1ms
+185 timing idealTree Completed in 2080ms
+186 timing reify:loadTrees Completed in 2082ms
+187 timing reify:diffTrees Completed in 2ms
+188 silly reify moves {}
+189 timing reify:retireShallow Completed in 1ms
+190 timing reify:rollback:createSparse Completed in 1ms
+191 timing reify:rollback:retireShallow Completed in 0ms
+192 timing command:install Completed in 2114ms
+193 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/cowsay'
+194 verbose cwd /Users/marynazhelobetska/Documents/Html
+195 verbose Darwin 22.6.0
+196 verbose node v20.10.0
+197 verbose npm  v10.2.3
+198 error code EACCES
+199 error syscall mkdir
+200 error path /usr/local/lib/node_modules/cowsay
+201 error errno -13
+202 error [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/cowsay'] {
+202 error   errno: -13,
+202 error   code: 'EACCES',
+202 error   syscall: 'mkdir',
+202 error   path: '/usr/local/lib/node_modules/cowsay'
+202 error }
+203 error
+203 error The operation was rejected by your operating system.
+203 error It is likely you do not have the permissions to access this file as the current user
+203 error
+203 error If you believe this might be a permissions issue, please double-check the
+203 error permissions of the file and its containing directories, or try running
+203 error the command again as root/Administrator.
+204 verbose exit -13
+205 timing npm Completed in 2664ms
+206 verbose unfinished npm timer reify 1703169752788
+207 verbose unfinished npm timer reify:createSparse 1703169754892
+208 verbose code -13
+209 error A complete log of this run can be found in: /Users/marynazhelobetska/.npm/_logs/2023-12-21T14_42_32_227Z-debug-0.log

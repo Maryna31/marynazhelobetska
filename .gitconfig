@@ -1,0 +1,6 @@
+[core]
+	editor = kate
+	autocrlf = input
+[user]
+	name = Maryna Zhelobetska
+	email = marynazhelobetska@gmail.com
